@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 46);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #DED0B6;
+}
+
+#menu ul {
+    background: #BBAB8C;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    color: #FDF7E4;
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 1px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#menu a:hover {
+    background: #FAEED1;
+    color: #333;
+}
+
+.header {
+    background-color:#FDF7E4;
+    padding: 15px;
+}
+
+.stepBox {
+    background-color: tan;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto;
+    width: 780px;
+}
+
+.numBox {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    line-height: 45px;
+    margin: auto;
+    min-height: 90px;
+    min-width: 90px;
+    text-align: center;
+}
+
+.actionBox {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    height: 80px;
+    line-height: 90px;
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.submitBox {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 420px;
+}
+
+.chooseBox {
+    background-color: peachpuff;
+    border: 1px solid black;
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+
+.inviBox {
+    background-color: white;
+    color: black;
+    margin: auto;
+    text-align: left;
+    max-width: fit-content;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: burlywood;
+    box-shadow: 0px 15px 20px rgba(254, 189, 59, 0.377);
+    color: white;
+    transform: translateY(-7px);
+}
+
+input, select {
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+
+input:focus {
+    background-color: #EBE3D5;
+    outline: none;
+}
+
+div {
+    padding: 10px 0;
+}
+
+button {
+    color: white;
+    padding: -3px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    background-color: saddlebrown;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    color : #333;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+form div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    width: 800px;
+}
+form div label {
+    font-size: 20px;
+    text-align: left;
+    width: 150px;
+}
+
+form div input{
+    flex: 1;
+}
+
+form div select{
+    flex: 1;
+    padding-right: 8px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;}
+
+.select-multiple{
+    height: 300px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+    margin-right: 5px; /* Add some spacing between radio button and label */
+}
+
+.submit-button {
+    flex: 1;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #333;
+    min-width: 100px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px 0;
+    color: black;
+    cursor: pointer;
+    
+}
+
+
+.submit-button.delete{
+    background-color:  #B0A695;
+    border: none;
+    color: white;
+}
+
+
+.submit-button.update{
+    background-color:  #B0A695;
+    border: none;
+    color: white;
+
+}
+
+.search-button{
+    background-color: #B0A695;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.search-button:hover{
+    background-color: #F3EEEA;
+    color: black;
+}
+
